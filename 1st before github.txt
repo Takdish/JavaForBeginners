@@ -1,0 +1,5 @@
+Hi! This is me TAKDISH
+Welcome to my new JAVA code series, were we cover all the topic about JAVA to ADVANCE,
+Also I include PDF OOps PDF to learn better.
+
+This is my 2nd commit before completing OOps.
