@@ -8,7 +8,7 @@ public class min_max {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the array:");
         int n = sc.nextInt();
-        int[] arr = new int[n];
+        int[] arr = new int[n]; // create a new array object.
         System.out.println("Enter the elements of the array:");
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();

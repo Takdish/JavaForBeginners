@@ -1,5 +1,6 @@
 package Method;
 
+//not using function
 public class primeORnot_2 {
     public static void main(String[] args) {
         // Boolean isPrime = true;
