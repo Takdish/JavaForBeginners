@@ -5,7 +5,7 @@ public class upper_lower {
         String name = "mr_takdish";
         // name.concat(" ali");
         // use upper for capital all the letters in name String.
-        System.out.println(name.toUpperCase(capitalized()));
+        System.out.println(name.toUpperCase());
         System.out.print(name.toLowerCase());
 
     }
