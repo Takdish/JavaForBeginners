@@ -1,13 +1,24 @@
+/* #Class
+   1- Class is a blueprint for Object.
+   2- It is used to create Object.
+   3- It is the collection of Object.
+   4- It is a "Logical" entity.
+   5- The class represent a group  of Object having similar "behaviour" + "State/property". 
+   
+   #Object 
+   1- Object is a "real World" entity.
+   2- An Object is an instance of the Class.
+   */
 class bankAccount {
     static String bankName = "PNB";
     int accountNumber;
     String accountHolderName;
     double balance;
 
-    bankAccount(int acNO, String holderName, int initialBalance) {
-        accountNumber = acNO;
-        accountHolderName = holderName;
-        balance = initialBalance;
+    bankAccount(int accountNumber, String accountHolderName, int balance) {
+        this.accountNumber = accountNumber;
+        this.accountHolderName = accountHolderName;
+        this.balance = balance;
     }
 
     static {
